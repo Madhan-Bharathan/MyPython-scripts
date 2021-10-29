@@ -18,7 +18,6 @@ class bit:
       l=int(input("Enter the level of binary tree b/w 1-9:"))
       # Enter 1 for perfect tree or 0 for imperfect tree
       p=int(input("Perfect=1,imperfect=0:"))
-      bit.print_tree(l,p)
       n=tree(l,is_perfect=p)
       print(n)
       s=bit.max_sum(n)
